@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(127, 214, 255);
+  }
+  .container {
+    width: 60%;
+    height: 50em;
+    margin: 7em auto;
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(15, 126, 169, 0.87),
+        rgba(15, 126, 169, 0.87)
+      ),
+      url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjustinkelefas.com%2Fwp-content%2Fuploads%2F2020%2F10%2FSea-Turtle-swimming-in-Clear-Water-pano.jpg&f=1&nofb=1&ipt=3576d163bf2ba8b8883ef5e965be46ed6858084f15b3e812853641724008d3d4");
+    border-radius: 15px;
+    padding: 15px;
+  }
+  
+  /* Navigation bar start */
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  nav ul li img {
+    margin-right: 10em;
+  }
+  a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    background-color: rgba(5, 198, 246, 0.355);
+    border-radius: 8px;
+  }
+  /* Navigation bar end */
+  
+
+span {
+  font-size: 10px;
+  color: white;
+}
+.card {
+    text-align: justify;
+  display: inline-block;
+  margin: 10px;
+  width: 30%;
+}
+
+
+.card h3{
+    color: white;
+    text-align: center;
+}
+
+
+.favorites-researchers{
+    text-align: start;
+}
+.favorites-researchers h3{
+    color: white;
+}
+
+ol{
+    color: white;
+}
