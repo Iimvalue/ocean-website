@@ -1,33 +1,94 @@
-
-
-.container{
-    
-    width: 60%;
-    height:30em;
-    background-color: rgb(127, 214, 255);
-    margin: 7em auto;
-    border-radius: 15px;
-    padding: 15px;
+body {
+  background-color: rgb(127, 214, 255);
+}
+.container {
+  width: 60%;
+  height: 30em;
+  margin: 7em auto;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(15, 126, 169, 0.87),
+      rgba(15, 126, 169, 0.87)
+    ),
+    url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjustinkelefas.com%2Fwp-content%2Fuploads%2F2020%2F10%2FSea-Turtle-swimming-in-Clear-Water-pano.jpg&f=1&nofb=1&ipt=3576d163bf2ba8b8883ef5e965be46ed6858084f15b3e812853641724008d3d4");
+  border-radius: 15px;
+  padding: 15px;
 }
 
 /* Navigation bar start */
-ul{
-text-align: center;
+nav ul {
+  text-align: center;
 }
-ul li{
-display: inline-block;
-margin: 0 10px;
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
 }
-ul li img{
-    margin-right: 10em;
+nav ul li img {
+  margin-right: 10em;
 }
-a{
-    padding: 10px;
-    text-decoration: none;
-    color: white;
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
 }
-a:hover{
-    background-color: rgba(5, 198, 246, 0.355);
-    border-radius: 8px;
+a:hover {
+  background-color: rgba(5, 198, 246, 0.355);
+  border-radius: 8px;
 }
 /* Navigation bar end */
+
+/* main start*/
+main {
+  margin-left: 20px;
+}
+main h2 {
+  color: white;
+  width: 40%;
+}
+
+main p {
+  color: white;
+  text-align: justify;
+  width: 40%;
+}
+main h3 {
+  color: white;
+}
+
+.ocean-goals ul {
+  color: white;
+  padding: 0;
+  margin: 0;
+  /* background-color: grey; */
+}
+
+.ocean-goals ul li {
+  width: 7em;
+  display: inline-block;
+}
+/* .ocean-goals ul li:hover{
+    border-radius: 1px;
+
+} */
+.ocean-goals ul li img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.ocean-goals ul li:hover {
+  background-color: rgba(5, 198, 246, 0.355);
+  border-radius: 8px;
+}
+.ocean-goals ul li p {
+  padding-left: 5px;
+  width: 80%;
+  margin: 0;
+  text-align: left;
+  padding-right: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+}
