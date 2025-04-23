@@ -1,0 +1,33 @@
+
+
+.container{
+    
+    width: 60%;
+    height:30em;
+    background-color: rgb(127, 214, 255);
+    margin: 7em auto;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+/* Navigation bar start */
+ul{
+text-align: center;
+}
+ul li{
+display: inline-block;
+margin: 0 10px;
+}
+ul li img{
+    margin-right: 10em;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: rgba(5, 198, 246, 0.355);
+    border-radius: 8px;
+}
+/* Navigation bar end */
