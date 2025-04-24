@@ -76,7 +76,6 @@ main h3 {
   object-fit: cover;
   border-radius: 8px;
   border: 2px solid white;
-  cursor: pointer;
 }
 .ocean-goals ul li:hover {
   background-color: rgba(5, 198, 246, 0.355);
