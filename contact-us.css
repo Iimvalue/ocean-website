@@ -95,3 +95,10 @@ textarea:focus {
   background-color: rgba(5, 198, 246, 0.355);
   cursor: pointer;
 }
+
+.selection {
+  width: 100%;
+  border: 0px;
+  border-radius: 8px;
+  height: 3em;
+}

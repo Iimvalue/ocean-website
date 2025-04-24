@@ -31,10 +31,10 @@
           <form action="post">
             <label for="name">Full Name</label>
             <br />
-            <input type="text" required/>
+            <input type="text" required />
             <label for="Age">Age</label>
             <br />
-            <input type="number" required/>
+            <input type="number" required />
             <br />
 
             <label for="gender">Gender</label>
@@ -77,44 +77,23 @@
               required
             />
             <label for="no" class="label-radio">No</label>
-            <br /> <br>
-            <label for="interest">Choose your field of interest</label required><br />
-
-            <input
-              type="radio"
-              class="radio-button"
-              name="interest"
-              value="oceans"
-              required
-            />
-            <label for="oceans" class="label-radio">Oceans</label> <br />
-
-            <input
-              type="radio"
-              class="radio-button"
-              name="interest"
-              value="marine-environment"
-            />
-            <label for="marine-environment" class="label-radio"
-              >Marine Environment</label
-            >
             <br />
+            <br />
+            <label for="interest">Choose your field of interest</label><br />
+            <select name="interest" class="selection">
+              <option value="" disabled selected>Select one</option>
+              <option value="oceans">Oceans</option>
+              <option value="marine-environment">Marine Environment</option>
+              <option value="marine-creatures">Marine Creatures</option>
+            </select>
 
-            <input
-              type="radio"
-              class="radio-button"
-              name="interest"
-              value="marine-creatures"
-              required
-            />
-            <label for="marine-creatures" class="label-radio"
-              >Marine Creatures</label
-            >
             <br />
             <br />
 
             <label for="join-reason" class="label-radio"
-              >Why do you want to join us?</label> <br />
+              >Why do you want to join us?</label
+            >
+            <br />
             <textarea
               name="join-reason"
               rows="5"
