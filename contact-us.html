@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact-us.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/4971/4971976.png"
+                alt="whale"
+                width="40px"
+              />
+            </li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./ocean-types.html">Ocean Types</a></li>
+            <li><a href="./contact-us.hmtl">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div style="padding-left: 20%; padding-right: 20%">
+          <h2>Join To The Mission</h2>
+          <form action="post">
+            <label for="name">Full Name</label>
+            <br />
+            <input type="text" required/>
+            <label for="Age">Age</label>
+            <br />
+            <input type="number" required/>
+            <br />
+
+            <label for="gender">Gender</label>
+            <br />
+            <input
+              type="radio"
+              name="gender"
+              class="radio-button"
+              value="man"
+              required
+            />
+            <label for="man" class="label-radio">Man</label>
+            <br />
+            <input
+              type="radio"
+              class="radio-button"
+              name="gender"
+              value="woman"
+              required
+            />
+            <label for="woman" class="label-radio">Woman</label><br /><br />
+
+            <label>Would you like to be a diver?</label><br />
+
+            <input
+              type="radio"
+              id="yes"
+              name="diver"
+              class="radio-button"
+              value="yes"
+            />
+            <label for="yes" class="label-radio">Yes</label>
+
+            <input
+              type="radio"
+              id="no"
+              name="diver"
+              class="radio-button"
+              value="no"
+              required
+            />
+            <label for="no" class="label-radio">No</label>
+            <br /> <br>
+            <label for="interest">Choose your field of interest</label required><br />
+
+            <input
+              type="radio"
+              class="radio-button"
+              name="interest"
+              value="oceans"
+              required
+            />
+            <label for="oceans" class="label-radio">Oceans</label> <br />
+
+            <input
+              type="radio"
+              class="radio-button"
+              name="interest"
+              value="marine-environment"
+            />
+            <label for="marine-environment" class="label-radio"
+              >Marine Environment</label
+            >
+            <br />
+
+            <input
+              type="radio"
+              class="radio-button"
+              name="interest"
+              value="marine-creatures"
+              required
+            />
+            <label for="marine-creatures" class="label-radio"
+              >Marine Creatures</label
+            >
+            <br />
+            <br />
+
+            <label for="join-reason" class="label-radio"
+              >Why do you want to join us?</label> <br />
+            <textarea
+              name="join-reason"
+              rows="5"
+              cols="40"
+              placeholder="Write your reason here..."
+            ></textarea>
+
+            <br />
+            <br />
+            <button class="submit-button">Submit</button>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
